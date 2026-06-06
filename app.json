@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PriceCheckTCG",
-    "slug": "PriceCheckTCG",
+    "slug": "pricecheck-tcg-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c178c1f2-ac94-4a76-86fd-397a924c0073"
+      }
+    },
+    "owner": "brandon-v20"
   }
 }
